@@ -1243,6 +1243,7 @@
     left: 0.75rem;
     color: rgba(0, 0, 0, 0.6);
     transition-duration: 0.2s;
+    border-radius: 2px;
   }
   .p-float-label > label.p-error {
     color: #b00020;
@@ -2851,7 +2852,9 @@
     border-radius: 0;
   }
   .p-datatable .p-datatable-header {
-    background: #ffffff;
+    /* CUSTOM STYLES */
+    background-color:rgb(245, 245, 245);
+    /* background: #ffffff; */
     color: rgba(0, 0, 0, 0.87);
     border: 1px solid #e4e4e4;
     border-width: 0 0 1px 0;
@@ -2969,11 +2972,15 @@
     font-weight: 500;
   }
   .p-datatable .p-datatable-tbody > tr > td.p-highlight {
-    background: rgba(63, 81, 181, 0.12);
+    /* CUSTOM STYLES */
+    /* background: rgba(63, 81, 181, 0.12); */
+    background: rgb(232, 234, 246);
     color: #3F51B5;
   }
   .p-datatable .p-datatable-tbody > tr.p-highlight {
-    background: rgba(63, 81, 181, 0.12);
+    /* CUSTOM STYLES */
+    /* background: rgba(63, 81, 181, 0.12); */
+    background: rgb(232, 234, 246);
     color: #3F51B5;
   }
   .p-datatable .p-datatable-tbody > tr.p-highlight-contextmenu {
@@ -2987,7 +2994,9 @@
     box-shadow: inset 0 -2px 0 0 rgba(63, 81, 181, 0.12);
   }
   .p-datatable.p-datatable-selectable .p-datatable-tbody > tr.p-selectable-row:not(.p-highlight):not(.p-datatable-emptymessage):hover {
-    background: rgba(0, 0, 0, 0.04);
+    /* CUSTOM STYLES */
+    /* background: rgba(0, 0, 0, 0.04); */
+    background: rgb(245, 245, 245);
     color: rgba(0, 0, 0, 0.87);
   }
   .p-datatable.p-datatable-selectable .p-datatable-tbody > tr.p-selectable-row:focus-visible {
@@ -3027,6 +3036,9 @@
   }
   .p-datatable.p-datatable-gridlines .p-datatable-header {
     border-width: 1px 1px 0 1px;
+    /* CUSTOM STYLES */
+    border-radius: 5px 5px 0 0;
+    background-color: #f5f5f5;
   }
   .p-datatable.p-datatable-gridlines .p-datatable-footer {
     border-width: 0 1px 1px 1px;
@@ -3036,6 +3048,9 @@
   }
   .p-datatable.p-datatable-gridlines .p-paginator-bottom {
     border-width: 0 1px 1px 1px;
+    /* CUSTOM STYLES */
+    border-radius: 0 0 5px 5px;
+    background-color: #f5f5f5;
   }
   .p-datatable.p-datatable-gridlines .p-datatable-thead > tr > th {
     border-width: 1px 0 1px 1px;
@@ -4432,8 +4447,8 @@
     border: 1px solid #e0e0e0;
     color: rgba(0, 0, 0, 0.87);
     border-bottom: 0 none;
-    border-top-right-radius: 4px;
-    border-top-left-radius: 4px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
     gap: 0.5rem;
   }
   .p-fileupload .p-fileupload-buttonbar .p-button {
@@ -4444,8 +4459,11 @@
     padding: 2rem 1rem;
     border: 1px solid #e0e0e0;
     color: rgba(0, 0, 0, 0.87);
-    border-bottom-right-radius: 4px;
-    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    /* CUSTOM STYLES */
+    max-height: calc(100vh - 189px);
+    overflow-y: auto;
   }
   .p-fileupload .p-progressbar {
     height: 4px;

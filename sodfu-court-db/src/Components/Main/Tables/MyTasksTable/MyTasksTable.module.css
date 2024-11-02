@@ -1,0 +1,22 @@
+/* .table .p-datatable-header {
+    background-color: aqua;
+    border-radius: 5px;
+} */
+
+.cardStyle {
+    padding: 16px;
+    border-radius: 12px;
+}
+
+.cardStyleLight {
+    background-color: white;
+}
+
+.cardStyleDark {
+    /* background-color: #011a30; */
+    background-color: #1e1e1e;
+}
+
+td {
+    cursor: default;
+}

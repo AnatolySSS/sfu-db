@@ -1,0 +1,23 @@
+.toggle {
+    /* position: absolute;
+    top: 15px;
+    right: 15px; */
+}
+
+.moon {
+    color: var(--indigo-600);
+}
+
+.moon:hover {
+    font-weight: bold;
+    text-shadow: 1px 1px 3px var(--indigo-600);
+}
+
+.sun {
+    color: var(--yellow-500);
+}
+
+.sun:hover {
+    font-weight: bold;
+    text-shadow: 1px 1px 3px var(--yellow-500);
+}

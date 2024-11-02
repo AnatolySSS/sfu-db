@@ -1,0 +1,14 @@
+.errorStatus {
+    font-size: 78px;
+    font-weight: bold;
+    color: var(--indigo-600);
+    text-shadow: 3px 3px 5px var(--indigo-600);
+}
+
+p {
+    color: var(--indigo-600);
+}
+
+.underline {
+    text-decoration: underline;
+}

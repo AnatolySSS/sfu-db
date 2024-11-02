@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ce8f834e.css",
+    "main.js": "/static/js/main.802b5092.js",
+    "static/js/592.1c9bc5d9.chunk.js": "/static/js/592.1c9bc5d9.chunk.js",
+    "static/media/primeicons.svg": "/static/media/primeicons.e1441b135b3ca9ad643c.svg",
+    "static/media/IMG_4539.jpg": "/static/media/IMG_4539.f2c4fbc8708d091275a2.jpg",
+    "static/media/primeicons.eot": "/static/media/primeicons.d44157bdfa026dc877af.eot",
+    "static/media/primeicons.woff": "/static/media/primeicons.10d3152104f2208ac82a.woff",
+    "static/media/primeicons.ttf": "/static/media/primeicons.ea5358601d0a3fd6670b.ttf",
+    "static/media/primeicons.woff2": "/static/media/primeicons.78172950b335ccdb94e2.woff2",
+    "static/media/logo-big.png": "/static/media/logo-big.49840df4fd5de0bd28d0.png",
+    "index.html": "/index.html",
+    "main.ce8f834e.css.map": "/static/css/main.ce8f834e.css.map",
+    "main.802b5092.js.map": "/static/js/main.802b5092.js.map",
+    "592.1c9bc5d9.chunk.js.map": "/static/js/592.1c9bc5d9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce8f834e.css",
+    "static/js/main.802b5092.js"
+  ]
+}

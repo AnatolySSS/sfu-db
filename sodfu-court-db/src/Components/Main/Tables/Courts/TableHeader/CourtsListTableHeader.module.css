@@ -1,0 +1,43 @@
+@media screen and (min-width: 1000px) {
+    .multiSelect {
+        width: 300px;
+    }
+
+    .span {
+        margin-right: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .rightGroup {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 0.5rem;
+    }
+
+    .multiSelect {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 705px) {
+    .rightGroup {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0.5rem;
+    }
+
+    .span {
+        margin-bottom: 0.5rem;
+    }
+
+    .input {
+        width: 100% !important;
+    }
+}
+

@@ -1,0 +1,31 @@
+.logoLight:hover {
+   background-color: rgba(0, 0, 0, 0.06);
+}
+
+.logoDark:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+ }
+
+ .menuItemsDark, .logoDark {
+   background-color: #1E1E1E;
+ }
+
+ .menuItemsLight, .logoLight {
+   background-color: #FFFFFF;
+ }
+
+ .menuItemsDark li ul {
+   background-color: #161616 !important;
+ }
+
+ .menuItemsLight li ul {
+   background-color: #F5F5F5 !important;
+ }
+
+ .menuItemsDark li:hover {
+   background-color: rgba(255, 255, 255, 0.08) !important;
+ }
+
+ .menuItemsLight li:hover {
+   background-color: rgba(0, 0, 0, 0.06) !important;
+ }

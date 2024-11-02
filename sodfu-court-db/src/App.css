@@ -1,5 +1,33 @@
+html {
+  --table-margins: 10px
+}
+
 html, body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+.ant-menu-submenu-popup.ant-menu-dark ul {
+  background-color: #424242 !important;
+}
+
+.ant-menu-submenu-popup.ant-menu-light ul {
+  background-color: #FFFFFF !important;
+}
+
+.p-multiselect-panel {
+  max-width: 30%;
+}
+
+.p-column-filter-overlay {
+  max-width: 30%;
+}
+
+.p-multiselect-clear-icon {
+  display: none;
+}
+
+.p-multiselect-items-wrapper ul li{
+  white-space: normal;
 }
